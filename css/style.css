@@ -1,5 +1,5 @@
 body{
-    background: #FAF4E1;
+    background: #f4e2a8;
     color: #43310E;
      font-family: "PT Serif", serif;
      font-weight: 400;
@@ -45,4 +45,69 @@ blockquote{padding: 1rem 0;
     text-indent: -0.5rem;
 
 
+}
+
+/*-- Styling links --*/
+a {
+    color: #43310E;
+    text-decoration: none;
+    border-bottom: 1px dotted;
+    font-weight: 600;
+    
+}
+
+a:hover {
+    color:#000000;
+}
+
+
+/*--   navigation --*/
+.responsivenav{
+    background: #ffc859;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo{
+    font-size: 2rem;
+    color: rgb(56, 42, 0);
+    padding-left: 50px;
+}
+
+nav{
+    display: flex;
+    padding: 1.5rem 0;
+}
+
+nav ul{
+    text-align: right;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    list-style-type: none;
+    padding-right: 70px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 5px;
+}
+
+nav a {
+    border-bottom: none;
+}
+
+nav a:hover {
+    color:#ffc859;
+    transition:all .03s ease-in-out;
+}
+
+/*-- styling the footer -*/
+
+footer{
+    background:#ffc551;
+    color: white;
+    text-align: center;
+    font-size: ;
 }
